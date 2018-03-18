@@ -1,0 +1,101 @@
+/*
+ * Stereokai Atom
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}
+
+.syntax--entity.syntax--name.syntax--function {
+    color: #ffffff;
+}
+
+.syntax--keyword,
+.syntax--keyword.syntax--other.syntax--unit.syntax--rem.syntax--css {
+    color: #f63ba3!important;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+    color: #2ad2f7!important;
+}
+
+.syntax--string,
+.syntax--entity.syntax--other.syntax--attribute-name {
+    color: #bcf558;
+}
+
+.syntax--constant.syntax--numeric {
+    color:#fb4d53;
+}
+
+.syntax--constant.syntax--other,
+.syntax--constant.syntax--character {
+    color: #529bff;
+}
+
+.syntax--string.syntax--quoted.syntax--double.syntax--html .syntax--entity.syntax--name.syntax--function.syntax--php {
+    color: #bcf548;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--html {
+    color: #a6e22e;
+}
+
+.syntax--support.syntax--variable.syntax--dom.syntax--js {
+    color: #52d9ef;
+    font-style: italic;
+}
+
+.syntax--storage.syntax--type.syntax--function ~ .syntax--entity.syntax--name.syntax--function {
+    color: #cfcf19;
+}
+
+.syntax--variable.syntax--language.syntax--js {
+    color: #fff;
+}
+
+.syntax--constant.syntax--language {
+    color: #74ff79;
+}
+
+atom-text-editor .gutter {
+    background-color: #282828;
+}
+
+.syntax--comment {
+    color: #909090;
+}
+
+.syntax--comment.syntax--block.syntax--html .syntax--meta.syntax--embedded.syntax--line.syntax--php .syntax--support.syntax--function.syntax--construct.syntax--output.syntax--php,
+.syntax--comment.syntax--block.syntax--html .syntax--meta.syntax--embedded.syntax--line.syntax--php .syntax--meta.syntax--function-call.syntax--php .syntax--entity.syntax--name.syntax--function.syntax--php {
+    color: #909090;
+}
+
+// span.syntax--meta.syntax--function-call.syntax--php span.syntax--entity.syntax--name.syntax--function.syntax--php {
+//     color: #f63ba3;
+// }
