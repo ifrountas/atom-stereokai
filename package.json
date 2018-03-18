@@ -1,0 +1,15 @@
+{
+  "name": "Stereokai Atom",
+  "theme": "stereokai",
+  "version": "1.0.0",
+  "description": "A monokai alternative that we loved in other code editors.",
+  "keywords": [
+    "stereokai",
+    "theme"
+  ],
+  "repository": "https://github.com/ifrountas/atom-stereokai/",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
